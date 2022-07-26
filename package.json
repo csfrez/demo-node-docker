@@ -1,5 +1,5 @@
 {
-  "name": "node-web-app",
+  "name": "node-web-app	",
   "version": "1.0.0",
   "description": "Node.js on Docker",
   "author": "csfrez@163.com",
@@ -8,6 +8,6 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.16.1"
+    "express": "^4.18.1"
   }
 }
