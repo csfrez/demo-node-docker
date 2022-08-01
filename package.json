@@ -6,8 +6,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "server": "pm2-runtime restart pm2.config.js",
-    "stop": "pm2-runtime delete pm2.config.js"
+    "server": "pm2 restart pm2.config.js",
+    "stop": "pm2 delete pm2.config.js"
   },
   "dependencies": {
     "express": "^4.18.1"
