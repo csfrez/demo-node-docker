@@ -7,8 +7,10 @@ const HOST = '0.0.0.0';
 
 const app = express();
 app.get('/', (req, res) => {
-  res.send('Hello World');
+  let random = Math.random();
+  console.log(`process pid: ${process.pid}, random is ${random}`);
+  res.send(`Hello World ${random}`);
 });
 
 app.listen(PORT, HOST);
-console.log(`Running on http://${HOST}:${PORT}`);
+console.log(`Running process pid ${process.pid} on http://${HOST}:${PORT}`);
